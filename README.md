@@ -93,7 +93,7 @@ To train all the policies (MAPPO, SA-PPO with Transshipment, SA-PPO No Transship
    jupyter notebook
    ```
 2. Open and run all cells in `notebooks/01_training.ipynb`. This will:
-   - Train the three RL agents across 5 training seeds (`42, 100, 2023, 888, 55`) for `2000` episodes each.
+   - Train the three RL agents across 5 training seeds (`42, 123, 456, 789, 2025`) for `2000` episodes each.
    - Save trained model checkpoints in `results/models/`.
    - Run a multi-seed evaluation on 50 evaluation seeds.
    - Generate evaluation result tables in `results/tables/`:
@@ -154,17 +154,3 @@ Figures are generated using the scientific plotting guidelines from the paper (m
    - `sensitivity_trajectories.png` (Sensitivity trajectories for disruption and penalties)
    - `policy_simulation_dynamics.png` (Simulated trace mapping of system inventory states under disruption)
 
----
-
-## 9. Citation Information
-If you use this codebase or the associated research results, please cite:
-
-```bibtex
-@article{platelet_rl_2026,
-  author    = {Academic Platelet Supply Chain Research Group},
-  title     = {Reinforcement Learning for Hospital Network Platelet Inventory Management under Disruptions},
-  journal   = {Operations Research & Scientific Computing},
-  year      = {2026},
-  doi       = {10.1000/xyz123}
-}
-```
