@@ -65,5 +65,5 @@ MIN_ENTROPY = 0.005
 TOTAL_EPISODES = 2000
 
 # Training seed definitions
-TRAIN_SEEDS = [42, 100, 2023, 888, 55]
+TRAIN_SEEDS = [42, 123, 456, 789, 2025]
 EVAL_SEEDS = range(1, 51)
